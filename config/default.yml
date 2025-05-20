@@ -1,0 +1,11 @@
+city: Taipei
+max_bars: 200
+max_photos: 1
+max_reviews: 5000
+top_k: 5
+bars_db: ./data/bars_taipei.db
+queries_db: ./data/queries.db
+gemma_model: google/gemma-3-4b-it
+granite_model: ibm-granite/granite-embedding-125m-english
+hf_token: "YOUR_HUGGINGFACE_TOKEN"
+openai_key: "YOUR_OPENAI_KEY"

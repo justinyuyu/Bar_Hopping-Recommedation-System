@@ -1,0 +1,19 @@
+# Training parameters
+input_dim: 1024
+batch_size: 32
+epochs: 50
+learning_rate: 0.0001
+warmup_steps: 100
+margin: 0.5
+device: mps  # Use MPS for Mac, cuda for NVIDIA GPU, or cpu
+
+# Question generation parameters
+num_bars: 100
+questions_per_bar: 10
+
+# Evaluation parameters
+eval_k: 20
+
+# Paths
+model_save_path: adapter_model.pt
+data_dir: data 

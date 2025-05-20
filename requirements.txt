@@ -1,0 +1,15 @@
+selenium==4.31.0
+beautifulsoup4==4.13.4
+PyYAML==6.0.2
+transformers==4.51.3
+torch==2.2.2
+numpy==1.26.4
+tqdm==4.67.1
+python-dotenv
+openai
+matplotlib
+pillow==11.2.1
+accelerate==1.6.0
+lxml==5.3.2
+pandas==2.2.3
+gradio==5.29.0
