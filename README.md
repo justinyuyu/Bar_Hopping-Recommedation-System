@@ -35,6 +35,7 @@ RunTini redefines nightlife by pairing curated bar experiences with a guided nig
 - [Getting Started - How to Unleash the Fun](#-getting-started---how-to-unleash-the-fun)
     - [Prerequisites - What You'll Need in Your Toolkit](#️-prerequisites---what-youll-need-in-your-toolkit)
     - [Installation - Setting Up Your Adventure](#-installation---setting-up-your-adventure)
+    - [(Optional) DIY - Local Flavor, Global Fun](#-optional-diy---local-flavor-global-fun)
 - [License - Cheers to Open Source](#-license---cheers-to-open-source)
 - [Contact - Holler At Us](#-contact---holler-at-us)
 
@@ -91,14 +92,46 @@ We've concocted RunTini with a potent blend of these amazing technologies:
 
 ## 🚀 Getting Started - How to Unleash the Fun
 
-Ready to let RunTini plan your next unforgettable night out? Here's how to get started:
+Plan the perfect night out with RunTini — your AI-powered bar-hopping assistant. Follow these steps to get up and running in minutes:
 
 ### ⚙️ Prerequisites - What You'll Need in Your Toolkit
 
-Before you can embark on your RunTini adventure, make sure you have the following installed:
+Make sure the following are installed on your system:
+
+- **Python 3.8+**
+- **Google Chrome** browser
+- **ChromeDriver** (ensure it matches your Chrome version)
+- *Optional but recommended*: a virtual environment like `venv` or `conda`
 
 ### ⚡ Installation - Setting Up Your Adventure
-Follow these steps to get RunTini up and running:
+
+Clone the repository and install all required packages:
+```
+git clone https://github.com/hsinchen22/Bar-Hopping-Route-Recommender
+cd Bar-Hopping-Route-Recommender
+
+pip install -r requirements.txt
+```
+
+Start the main app and access the Gradio interface in your browser:
+```
+python main.py
+```
+> [!NOTE]
+> Gradio will output a local URL (e.g., `http://127.0.0.1:7860`) and a public URL. Open either one to start.
+
+### 🌎 (Optional) DIY - Local Flavor, Global Fun
+
+Want RunTini to work in Seoul, NYC, or your own backyard? Build your dataset:
+```
+python summary.py
+```
+
+> [!IMPORTANT]
+> Before running the dataset builder, open `config/default.yml` and input your **City**, **Hugging Face token** and **OpenAI API key** in the appropriate fields.
+<br/>
+
+**🎉🎉🎉You're all set! Let RunTini craft your perfect night out — 🍻 cheers to bar-hopping made smart.**
 
 <br/>
 
@@ -115,7 +148,7 @@ Email: <a href="mailto:hsinchen@stanford.edu">hsinchen@stanford.edu</a><br/>
 GitHub: <a href="https://github.com/hsinchen22">github.com/hsinchen22</a>
 
 <b>Justin Yu</b><br/>
-Email: <a href="mailto:??">??</a><br/>
+Email: <a href="mailto:tiy035@ucsd.edu??">tiy035@ucsd.edu</a><br/>
 GitHub: <a href="https://github.com/justinyuyu">github.com/justinyuyu</a>
 
 
